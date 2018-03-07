@@ -13,7 +13,9 @@ That's it! As simple as it can get.
 
 ## How to use it
 **Important:** Because of old browsers (e.g. IE6, IE7), we recommend:
+
 <br>  — Implement this plugin before any other javascripts (plugins or your own scripts); 
+
 <br> — Although we tested the AJAX approach, and it's easier to implement, we recommend to use the plugin without AJAX calls (5.).
 <br>With these points in consideration is less prone to have conflicts with your code. These browsers have "strange" js errors and the plugin may not be working as intended. So keep it simple! 
 
@@ -66,6 +68,7 @@ That's it! As simple as it can get.
     ```
 <br>
 — Using jQuery (version that supports IE&lt;9) <br>
+
     ```javascript
     $( document ).ready(function() {
         outdatedBrowser({
